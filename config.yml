@@ -1,0 +1,11 @@
+logging:
+  level: INFO
+  loggers:
+    iocruz.dropwizard: DEBUG
+
+database:
+  driverClass : com.mysql.jdbc.Driver
+  url: 'jdbc:mysql://localhost:3306/products?useSSL=false'
+  user: root
+  password: root
+  validationQuery: "SELECT 1"
